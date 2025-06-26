@@ -1,2 +1,2 @@
 # Personal-Website
-My personal website
+Working on my Personal Website, made with Next.js and Tailwind CSS
