@@ -5,7 +5,7 @@ import NextLink from "next/link";
 import Headshot from "@/app/assets/headshot.png";
 import Signature from "@/app/components/Signature";
 import GTLogo from "@/app/components/icon/GTLogo.png";
-import ApacheLogo from "@/app/components/icon/apache.png";
+import ApacheLogo from "@/app/components/icon/apache1.png";
 import Image from "next/image";
 import { useState } from "react";
 import { GalleryHorizontalEnd, Briefcase } from "lucide-react";
@@ -67,7 +67,7 @@ export default function About() {
               <span className="text-stone-600 dark:text-stone-400">
                 <strong>Distributed Systems Researcher</strong> at{" "}
                 <span className="inline-flex items-baseline gap-1">
-                  <Image src={ApacheLogo} alt="Apache Logo" width={20} height={20} className="object-contain relative top-[5px]" />
+                  <Image src={ApacheLogo} alt="Apache Logo" width={20} height={18} className="object-contain relative top-[7px]" />
                   <Link href="https://apache.org" className="font-medium">
                     Apache
                   </Link>
