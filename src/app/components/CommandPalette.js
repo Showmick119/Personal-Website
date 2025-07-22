@@ -130,11 +130,11 @@ export default function CommandPalette() {
         icon: <FolderGit2 className="h-5 w-5" />,
         description: "Things I've built",
       };
-    } else if (pathname.startsWith("/writing")) {
+    } else if (pathname.startsWith("/experience")) {
       return {
-        name: "Writing",
+        name: "Experience",
         icon: <PenLine className="h-5 w-5" />,
-        description: "My thoughts and reflections",
+        description: "My professional journey",
       };
     }
   };
@@ -336,13 +336,13 @@ export default function CommandPalette() {
                   <Shortcut>P</Shortcut>
                 </Command.Item>
                 <Command.Item
-                  value="writing"
-                  onSelect={() => runCommand(() => router.push("/writing"))}
+                  value="experience"
+                  onSelect={() => runCommand(() => router.push("/experience"))}
                   className="flex items-center gap-2 px-3 py-2 text-sm text-stone-600 dark:text-stone-400 rounded hover:bg-stone-100 dark:hover:bg-stone-800 cursor-pointer data-[selected=true]:bg-stone-100 dark:data-[selected=true]:bg-stone-800"
                 >
                   <PenLine className="h-4 w-4" />
-                  <span className="flex-1">Go to Writing</span>
-                  <Shortcut>W</Shortcut>
+                  <span className="flex-1">Go to Experience</span>
+                  <Shortcut>E</Shortcut>
                 </Command.Item>
               </Command.Group>
 
@@ -385,16 +385,16 @@ export default function CommandPalette() {
                 </Command.Item>
                 <Command.Item
                   value="email"
-                  onSelect={() => runCommand(() => window.open("mailto:martinsit288@gmail.com", "_blank"))}
+                  onSelect={() => runCommand(() => window.open("mailto:sdas412@gatech.edu", "_blank"))}
                   className="flex items-center gap-2 px-3 py-2 text-sm text-stone-600 dark:text-stone-400 rounded hover:bg-stone-100 dark:hover:bg-stone-800 cursor-pointer data-[selected=true]:bg-stone-100 dark:data-[selected=true]:bg-stone-800"
                 >
                   <Mail className="h-4 w-4" />
                   <span className="flex-1">Email</span>
-                  <Shortcut>E</Shortcut>
+                  <Shortcut>M</Shortcut>
                 </Command.Item>
                 <Command.Item
                   value="source"
-                  onSelect={() => runCommand(() => window.open("https://github.com/martin226/v2", "_blank"))}
+                  onSelect={() => runCommand(() => window.open("https://github.com/Showmick119/Personal-Website", "_blank"))}
                   className="flex items-center gap-2 px-3 py-2 text-sm text-stone-600 dark:text-stone-400 rounded hover:bg-stone-100 dark:hover:bg-stone-800 cursor-pointer data-[selected=true]:bg-stone-100 dark:data-[selected=true]:bg-stone-800"
                 >
                   <CodeXml className="h-4 w-4" />

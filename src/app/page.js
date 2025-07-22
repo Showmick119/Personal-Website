@@ -11,7 +11,7 @@ import JAMHacksLogo from "@/app/components/icon/JAMHacks.png";
 import StAugustineLogo from "@/app/components/icon/StAugustine.png";
 import Image from "next/image";
 import { useState } from "react";
-import { GalleryHorizontalEnd } from "lucide-react";
+import { GalleryHorizontalEnd, Briefcase } from "lucide-react";
 
 export default function About() {
   return (
@@ -126,6 +126,14 @@ export default function About() {
         <GalleryHorizontalEnd className="size-5 inline align-top ml-1 transition-transform group-hover:rotate-3" />
       </NextLink>
 
+      <NextLink
+        href="/experience"
+        className="text-center mt-3 py-4 px-6 rounded-lg border-2 border-stone-400 dark:border-stone-600 hover:bg-stone-800 hover:text-white dark:hover:bg-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-600 dark:text-stone-400 transform transition-all duration-300 font-medium hover:scale-[1.02] active:scale-[0.98] shadow-sm hover:shadow-md"
+      >
+        see where i&apos;ve worked{" "}
+        <Briefcase className="size-5 inline align-top ml-1 transition-transform group-hover:rotate-3" />
+      </NextLink>
+
       <div className="flex items-center justify-center gap-2 text-stone-600 dark:text-stone-400 mt-4">
         <span>or, </span>
         <span>→</span>
@@ -135,14 +143,13 @@ export default function About() {
       </div>
 
       <div className="flex flex-col sm:flex-row items-center justify-between mt-4">
-        <div className="relative flex-1 flex items-center mr-8">
+        <div className="relative flex-1 flex items-center justify-center sm:justify-center mr-0 sm:mr-8 mb-4 sm:mb-0">
           <Signature />
         </div>
         <div className="w-48 h-48 relative rounded-full border-2 border-stone-200 dark:border-stone-700 shadow-lg overflow-hidden bg-stone-50 dark:bg-stone-800">
           <Image
             src={Headshot}
-            alt="Martin Sit Headshot"
-            fill
+            alt="Showmick Headshot"
             className="object-cover object-top rounded-full"
           />
         </div>

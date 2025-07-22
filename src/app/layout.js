@@ -10,8 +10,8 @@ import ThemeProvider from "./components/ThemeProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Martin Sit",
-  metadataBase: new URL("https://martinsit.ca"),
+  title: "Showmick Das",
+  metadataBase: new URL("https://sdas.ca"),
 };
 
 export default function RootLayout({ children }) {

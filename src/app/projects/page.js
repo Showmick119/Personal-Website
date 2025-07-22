@@ -27,15 +27,19 @@ import { Search } from "lucide-react";
 export default function Home() {
   const projects = [
     {
-      title: "Vibe Draw",
-      href: "https://tryvibedraw.com",
-      description:
-        "the Cursor + Midjourney for 3D modeling. Create beautiful 3D assets from your roughest sketches in seconds. 3M+ views, 1,600+ stars.",
-      image: VibeDrawImage,
-      imageAlt: "Vibe Draw",
-      technologies: ["Python", "FastAPI", "React", "Next.js", "Three.js", "TypeScript", "Google Cloud Platform"],
-      github: "https://github.com/martin226/vibe-draw",
-      demo: "https://tryvibedraw.com",
+      title: "Your Project Name",
+      href: "https://your-project-url.com",
+      description: "Brief one-line summary of your project",
+      details: [
+        "Detailed bullet point 1 about the project functionality",
+        "Detailed bullet point 2 with achievements and metrics",
+        "Detailed bullet point 3 about technical implementation"
+      ],
+      image: VibeDrawImage, // Replace with your project image
+      imageAlt: "Your Project Alt Text",
+      technologies: ["Technology1", "Technology2", "Technology3"], // Update with your tech stack
+      github: "https://github.com/yourusername/your-repo",
+      demo: "https://your-demo-url.com",
     },
     {
       title: "Slide it In",
@@ -274,7 +278,7 @@ export default function Home() {
       />
       <p>
         You can check out the rest of my projects{" "}
-        <Link href="https://github.com/martin226?tab=repositories&q=&type=source">
+        <Link href="https://github.com/Showmick119?tab=repositories&q=&type=source">
           here
         </Link>
         .

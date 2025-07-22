@@ -12,10 +12,11 @@ export default function Component() {
     <div className="flex flex-col items-center gap-2">
       <motion.svg 
         key={key} 
-        width="100%" 
-        height="70.487" 
-        viewBox="0 0 284.768 70.487" 
-        className="w-full max-w-xl text-stone-700 dark:text-stone-500"
+        width="300" 
+        height="135" 
+        viewBox="-20 0 120 70.487" 
+        className="text-stone-700 dark:text-stone-500"
+        preserveAspectRatio="xMidYMid meet"
       >
         <g
           stroke="currentColor"
@@ -47,13 +48,13 @@ export default function Component() {
             />
           ))}
           <motion.path
-            d="M 2 65 C 50 65, 100 62, 284 62"
+            d="M -15 65 C 20 65, 50 62, 100 62"
             strokeWidth="4"
             strokeLinecap="round"
             initial={{ pathLength: 0, opacity: 0 }}
             animate={{ pathLength: 1, opacity: 0.2 }}
             transition={{
-              pathLength: { duration: 1.5, ease: "easeInOut", delay: 3.25 },
+              pathLength: { duration: 1, ease: "easeInOut", delay: 3.25 },
               opacity: { duration: 0.3, delay: 3.20 }
             }}
           />

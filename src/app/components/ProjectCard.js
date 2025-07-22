@@ -23,6 +23,7 @@ const toBase64 = (str) =>
 export default function ProjectCard({
   title,
   description,
+  details,
   href,
   image,
   imageAlt,
@@ -55,6 +56,16 @@ export default function ProjectCard({
               {title}
             </a>
             <p className="text-neutral-600 dark:text-neutral-400 mt-2 leading-relaxed">{description}</p>
+            {details && (
+              <ul className="mt-3 space-y-1">
+                {details.map((detail, index) => (
+                  <li key={index} className="text-neutral-600 dark:text-neutral-400 text-sm flex items-start gap-2">
+                    <span className="text-neutral-500 dark:text-neutral-500 mt-1">•</span>
+                    <span>{detail}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
             <div className="flex flex-wrap gap-2 mt-4">
               {technologies.map((tech, index) => (
                 <span
