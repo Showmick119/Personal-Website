@@ -135,7 +135,7 @@ export default function About() {
       </div>
 
       <div className="flex flex-col sm:flex-row items-center justify-between mt-4">
-        <div className="relative flex-1 flex items-center">
+        <div className="relative flex-1 flex items-center mr-8">
           <Signature />
         </div>
         <div className="w-48 h-48 relative rounded-full border-2 border-stone-200 dark:border-stone-700 shadow-lg overflow-hidden bg-stone-50 dark:bg-stone-800">
