@@ -92,7 +92,7 @@ export default function About() {
                 <Link href="https://your-project-2-url.com" className="font-medium">
                   attention is all you need
                 </Link>{" "}
-                paper achieving 14.8 BLEU score (~35% of the paper's performance) while training on a single A100 gpu versus paper's 8x P100 gpu setup
+                paper achieving 14.8 BLEU score (~35% of the paper&#39;s performance) while training on a single A100 gpu versus paper&#39;s 8x P100 gpu setup
               </span>
             </li>
           </ul>
@@ -103,7 +103,7 @@ export default function About() {
         href="/projects"
         className="text-center mt-4 py-4 px-6 rounded-lg border-2 border-stone-400 dark:border-stone-600 hover:bg-stone-800 hover:text-white dark:hover:bg-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-600 dark:text-stone-400 transform transition-all duration-300 font-medium hover:scale-[1.02] active:scale-[0.98] shadow-sm hover:shadow-md"
       >
-        see what i&apos;ve built{" "}
+        see what i&#39;ve built{" "}
         <GalleryHorizontalEnd className="size-5 inline align-top ml-1 transition-transform group-hover:rotate-3" />
       </NextLink>
 
@@ -111,7 +111,7 @@ export default function About() {
         href="/experience"
         className="text-center mt-3 py-4 px-6 rounded-lg border-2 border-stone-400 dark:border-stone-600 hover:bg-stone-800 hover:text-white dark:hover:bg-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-600 dark:text-stone-400 transform transition-all duration-300 font-medium hover:scale-[1.02] active:scale-[0.98] shadow-sm hover:shadow-md"
       >
-        see where i&apos;ve worked{" "}
+        see where i&#39;ve worked{" "}
         <Briefcase className="size-5 inline align-top ml-1 transition-transform group-hover:rotate-3" />
       </NextLink>
 
