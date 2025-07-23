@@ -1,70 +1,160 @@
+"use client";
+
+import Link from "../components/Link";
+import Image from "next/image";
+import UGALogo from "@/app/components/icon/UGA.png";
+import ApacheLogo from "@/app/components/icon/Apache1.png";
+import GTLogo from "@/app/components/icon/GTLogo.png";
+import StanfordLogo from "@/app/components/icon/stanford.png";
+import SOLshareLogo from "@/app/components/icon/solshare.png";
+
 export default function Experience() {
   const experiences = [
     {
-      company: "Your Company Name",
-      position: "Your Position",
-      duration: "Start Date - End Date",
-      location: "Location",
+      company: "Apache Software Foundation",
+      companyUrl: "https://apache.org",
+      companyLogo: ApacheLogo,
+      position: "Distributed Systems Researcher",
+      duration: "June 2024 - Present",
+      location: "Remote",
       description: [
-        "Bullet point 1 describing your work",
-        "Bullet point 2 describing achievements",
-        "Bullet point 3 with metrics/impact"
+        "Fine-tuned Code Llama model for FastAPI code generation, achieving ~15.7% improvement over base model",
+        "Became the most downloaded Code Llama adapter on Hugging Face with 10,000+ downloads",
+        "Implemented transformer architecture from 'Attention is All You Need' paper, achieving 14.8 BLEU score"
       ]
     },
     {
-      company: "Another Company",
-      position: "Another Position",
-      duration: "Start Date - End Date",
-      location: "Location",
+      company: "University of Georgia",
+      companyUrl: "https://uga.edu",
+      companyLogo: UGALogo,
+      position: "Machine Learning Intern",
+      duration: "May 2025 - July 2025",
+      location: "Athens, Georgia, United States",
       description: [
-        "Another bullet point describing your work",
-        "Another bullet point with achievements",
-        "Another bullet point with technical details"
+        "Developed and implemented machine learning models for data analysis and prediction tasks",
+        "Collaborated with research teams to optimize algorithms and improve model performance",
+        "Contributed to research publications and presented findings at academic conferences"
+      ]
+    },
+    {
+      company: "Stanford University",
+      companyUrl: "https://uga.edu",
+      companyLogo: StanfordLogo,
+      position: "Section Leader",
+      duration: "May 2025 - July 2025",
+      location: "Athens, Georgia, United States",
+      description: [
+        "Developed and implemented machine learning models for data analysis and prediction tasks",
+        "Collaborated with research teams to optimize algorithms and improve model performance",
+        "Contributed to research publications and presented findings at academic conferences"
+      ]
+    },
+    {
+      company: "Georgia Tech - Artificial Intelligence Lab",
+      companyUrl: "https://apache.org",
+      companyLogo: GTLogo,
+      position: "Research Assistant",
+      duration: "June 2024 - Present",
+      location: "Remote",
+      description: [
+        "Fine-tuned Code Llama model for FastAPI code generation, achieving ~15.7% improvement over base model",
+        "Became the most downloaded Code Llama adapter on Hugging Face with 10,000+ downloads",
+        "Implemented transformer architecture from 'Attention is All You Need' paper, achieving 14.8 BLEU score"
+      ]
+    },
+    {
+      company: "Georgia Tech - Exascale CFD Lab",
+      companyUrl: "https://apache.org",
+      companyLogo: GTLogo,
+      position: "Research Assistant",
+      duration: "June 2024 - Present",
+      location: "Remote",
+      description: [
+        "Fine-tuned Code Llama model for FastAPI code generation, achieving ~15.7% improvement over base model",
+        "Became the most downloaded Code Llama adapter on Hugging Face with 10,000+ downloads",
+        "Implemented transformer architecture from 'Attention is All You Need' paper, achieving 14.8 BLEU score"
+      ]
+    },
+    {
+      company: "ME SOLshare Ltd.",
+      companyUrl: "https://apache.org",
+      companyLogo: SOLshareLogo,
+      position: "Electrical Engineering Intern",
+      duration: "June 2024 - Present",
+      location: "Remote",
+      description: [
+        "Fine-tuned Code Llama model for FastAPI code generation, achieving ~15.7% improvement over base model",
+        "Became the most downloaded Code Llama adapter on Hugging Face with 10,000+ downloads",
+        "Implemented transformer architecture from 'Attention is All You Need' paper, achieving 14.8 BLEU score"
       ]
     }
-    // Add more experiences here as needed
+    // Add more experiences as needed
   ];
 
   return (
-    <div className="flex flex-col gap-8">
-      <div className="text-stone-600 dark:text-stone-400">
-        <p className="mb-6">My professional journey and key experiences.</p>
+    <div className="flex flex-col max-w-2xl mx-auto">
+      <div className="mb-8">
+        <p className="text-stone-600 dark:text-stone-400 text-base">
+          My professional journey and key experiences building impactful software and conducting research.
+        </p>
       </div>
       
-      {experiences.map((exp, index) => (
-        <div key={index} className="group border-l-2 border-stone-200 dark:border-stone-700 pl-6 relative">
-          <div className="absolute left-[-9px] top-2 w-4 h-4 bg-stone-800 dark:bg-stone-200 rotate-45 transform transition-all duration-300 group-hover:rotate-90 group-hover:scale-110" />
-          
-          <div className="flex flex-col gap-2">
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
-              <h3 className="text-lg font-semibold text-stone-800 dark:text-stone-200">
+      <ul className="grid gap-6 text-base">
+        {experiences.map((exp, index) => (
+          <li key={index} className="group flex flex-col gap-4 pl-4 relative hover:translate-x-1 transition-transform duration-200">
+            <div className="absolute left-0 top-[10px] w-[6px] h-[6px] bg-stone-800 dark:bg-stone-200 rotate-45 transform transition-all duration-300 group-hover:rotate-90 group-hover:scale-110" />
+            
+            {/* Company Name with Logo */}
+            <div className="flex items-center gap-3">
+              {exp.companyLogo && (
+                <Image 
+                  src={exp.companyLogo} 
+                  alt={`${exp.company} Logo`} 
+                  width={32} 
+                  height={32} 
+                  className="object-contain rounded-md"
+                />
+              )}
+              <Link href={exp.companyUrl} className="text-stone-800 dark:text-stone-200 font-semibold text-lg hover:text-stone-600 dark:hover:text-stone-400 transition-colors">
+                {exp.company}
+              </Link>
+            </div>
+            
+            {/* Position and Details */}
+            <div className="flex flex-col gap-2">
+              <h3 className="text-stone-700 dark:text-stone-300 font-medium text-base">
                 {exp.position}
               </h3>
-              <span className="text-sm text-stone-500 dark:text-stone-500">
-                {exp.duration}
-              </span>
+              <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-4 text-sm text-stone-500 dark:text-stone-500">
+                <span className="font-medium">{exp.duration}</span>
+                <span className="hidden sm:inline">•</span>
+                <span>{exp.location}</span>
+              </div>
             </div>
             
-            <div className="flex flex-col sm:flex-row sm:items-center gap-1">
-              <span className="font-medium text-stone-700 dark:text-stone-300">
-                {exp.company}
-              </span>
-              <span className="text-stone-500 dark:text-stone-500 text-sm">
-                • {exp.location}
-              </span>
-            </div>
-            
-            <ul className="mt-3 space-y-2">
-              {exp.description.map((item, i) => (
-                <li key={i} className="text-stone-600 dark:text-stone-400 flex items-start gap-2">
-                  <span className="text-stone-500 dark:text-stone-500 mt-2">•</span>
-                  <span>{item}</span>
+            {/* Description with nested bullets */}
+            <ul className="grid gap-1 pl-4">
+              {exp.description.map((item, itemIndex) => (
+                <li key={itemIndex} className="relative flex items-start gap-4 group/item">
+                  <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
+                  <span className="text-stone-600 dark:text-stone-400 leading-relaxed">
+                    {item}
+                  </span>
                 </li>
               ))}
             </ul>
-          </div>
-        </div>
-      ))}
+          </li>
+        ))}
+      </ul>
+      
+      {/* Call to action */}
+      <div className="flex items-center justify-center gap-2 text-stone-600 dark:text-stone-400 mt-8">
+        <span>want to work together? </span>
+        <span>→</span>
+        <Link href="mailto:your-email@example.com" className="font-medium">
+          let&#39;s connect
+        </Link>
+      </div>
     </div>
   );
 }

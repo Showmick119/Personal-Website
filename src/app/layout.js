@@ -1,5 +1,4 @@
 import { Inter } from "next/font/google";
-import { GoogleAnalytics } from '@next/third-parties/google'
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import Header from "./components/Header";
@@ -11,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Showmick Das",
-  metadataBase: new URL("https://sdas.ca"),
+  metadataBase: new URL("https://showmick.vercel.app"),
 };
 
 export default function RootLayout({ children }) {
@@ -30,7 +29,6 @@ export default function RootLayout({ children }) {
           <CommandPalette />
         </ThemeProvider>
       </body>
-      <GoogleAnalytics gaId="G-ZVLSZR04HM" />
     </html>
   );
 }

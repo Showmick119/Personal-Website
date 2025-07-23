@@ -78,7 +78,7 @@ export default function About() {
             <li className="relative flex items-start gap-4 group/item">
               <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
               <span className="text-stone-600 dark:text-stone-400">
-                🚀 fine-tuned a {" "}
+                🚀 fine-tuned the {" "}
                 <Link href="https://your-project-1-url.com" className="font-medium">
                   code llama model
                 </Link>{" "}

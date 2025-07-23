@@ -1,8 +1,8 @@
 "use client";
 
 import { createContext, useContext, useEffect, useState } from 'react';
-import lightFavicon from '../favicon.ico';
-import darkFavicon from '../favicon.dark.ico';
+import lightFavicon from '../favicon.jpg';
+import darkFavicon from '../favicon.dark.jpg';
 
 const ThemeContext = createContext({
   theme: 'light',
