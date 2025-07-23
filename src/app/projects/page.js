@@ -30,7 +30,7 @@ export default function Home() {
       ],
       image: AttentionImage,
       imageAlt: "AttentionImage",
-      technologies: ["Python", "PyTorch", "Hugging Face", "Weights & Biases", "pytest"],
+      technologies: ["Python", "PyTorch", "Hugging Face", "Weights & Biases", "GitHub Actions", "CI Pipeline", "pytest"],
       github: "https://github.com/Showmick119/GTPL-Website",
     },
     {
