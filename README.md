@@ -1,5 +1,5 @@
 <div align="center">
-    <img alt="Logo" src="docs/logo.jpg" width="100" />
+    <img alt="Logo" src="docs/favicon.ico" width="100" />
 </div>
 <h1 align="center">
     Showmick's Personal Website
