@@ -6,6 +6,8 @@ import ProjectList from "../components/ProjectList";
 import VibeDrawImage from "../assets/projects/vibedraw.gif";
 import SlideItInImage from "../assets/projects/slideitin.png";
 import MakeItJakesImage from "../assets/projects/makeitjakes.gif";
+import GeoguardImage from "../assets/projects/Geoguard.png";
+import JurassIQImage from "../assets/projects/JurrasIQ.png";
 
 import { useState } from "react";
 import { Search } from "lucide-react";
@@ -13,38 +15,34 @@ import { Search } from "lucide-react";
 export default function Home() {
   const projects = [
     {
-      title: "GeoGuard",
-      href: "https://your-project-url.com",
-      description: "Brief one-line summary of your project",
+      title: "Geoguard",
+      href: "https://devpost.com/software/geoguard",
+      description: "A safety-focused web application for Atlanta residents.",
       details: [
-        "Detailed bullet point 1 about the project functionality",
-        "Detailed bullet point 2 with achievements and metrics",
-        "Detailed bullet point 3 about technical implementation"
+        "features real-time alerts that notify users when approaching high-risk areas and an interactive heatmap for visualizing crime data from Atlanta PD",
+        "incorporated a custom shape-drawing tool allowing users to select specific map areas for detailed crime analysis and an SOS button for immediate emergency calls",
+        "built with React.js for a responsive user interface and used MongoDB Atlas to securely store and manage historical crime data",
+        "implemented robust server-side communication protocols with Node.js to handle real-time data updates",
       ],
-      image: VibeDrawImage, // Replace with your project image
-      imageAlt: "Your Project Alt Text",
-      technologies: ["Technology1", "Technology2", "Technology3"], // Update with your tech stack
-      github: "https://github.com/yourusername/your-repo",
+      image: GeoguardImage, // Replace with your project image
+      imageAlt: "Geoguard",
+      technologies: ["React.js", "Node.js", "MongoDB Atlas", "Figma"], // Update with your tech stack
+      github: "https://github.com/Showmick119/Geoguard-HackGT11",
     },
     {
-      title: "Slide it In",
-      href: "https://justslideitin.com",
-      description:
-        "a powerful presentation generator that transforms documents into beautiful slide decks using AI. 1,000+ users in 24 hours.",
-      image: SlideItInImage,
-      imageAlt: "Slide it In",
-      technologies: ["Go", "Next.js", "Google Cloud Platform"],
-      github: "https://github.com/martin226/slideitin",
-    },
-    {
-      title: "Make It Jake's",
-      href: "https://jakesresu.me",
-      description:
-        "a website for turning any resume into Jake's Resume template. 10,000+ users, idea to production in < 2 days.",
-      image: MakeItJakesImage,
-      imageAlt: "Make It Jakes",
-      technologies: ["Ruby on Rails", "Remix.js", "Redis", "Google Cloud Platform"],
-      github: "https://github.com/martin226/makeitjakes",
+      title: "JurassIQ",
+      href: "https://devpost.com/software/jurrasiq",
+      description: "An AI Assistant for Archaeologists.",
+      details: [
+        "built a machine learning model that analyzes historical excavation data and geospatial patterns to predict fossil-rich excavation hotspots",
+        "designed an AI system that generates structured excavation plans, estimating costs, workforce, logistics, and excavation duration to assist archaeologists",
+        "fine-tuned MobileNetV2 on 100,000+ synthetic data points and 5,000 real fossil images to classify fossils, determine species, and predict market value",
+        "processed and visualized over 240,000+ excavation-related data points on a world map, enabling archaeologists to explore fossil distribution interactively",
+      ],
+      image: JurassIQImage, // Replace with your project image
+      imageAlt: "JurassIQ",
+      technologies: ["Tensorflow", "Folium", "pandas", "Next.js", "Tailwind CSS"], // Update with your tech stack
+      github: "https://github.com/Showmick119/JurrasIQ",
     },
   ];
 
