@@ -3,9 +3,6 @@
 import Link from "../components/Link";
 import ProjectList from "../components/ProjectList";
 
-import VibeDrawImage from "../assets/projects/vibedraw.gif";
-import SlideItInImage from "../assets/projects/slideitin.png";
-import MakeItJakesImage from "../assets/projects/makeitjakes.gif";
 import GeoguardImage from "../assets/projects/Geoguard.png";
 import JurassIQImage from "../assets/projects/JurrasIQ.png";
 
@@ -39,9 +36,9 @@ export default function Home() {
         "fine-tuned MobileNetV2 on 100,000+ synthetic data points and 5,000 real fossil images to classify fossils, determine species, and predict market value",
         "processed and visualized over 240,000+ excavation-related data points on a world map, enabling archaeologists to explore fossil distribution interactively",
       ],
-      image: JurassIQImage, // Replace with your project image
+      image: JurassIQImage,
       imageAlt: "JurassIQ",
-      technologies: ["Tensorflow", "Folium", "pandas", "Next.js", "Tailwind CSS"], // Update with your tech stack
+      technologies: ["Tensorflow", "Folium", "pandas", "Next.js", "Tailwind CSS"],
       github: "https://github.com/Showmick119/JurrasIQ",
     },
   ];
