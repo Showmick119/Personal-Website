@@ -6,20 +6,6 @@ import ProjectList from "../components/ProjectList";
 import VibeDrawImage from "../assets/projects/vibedraw.gif";
 import SlideItInImage from "../assets/projects/slideitin.png";
 import MakeItJakesImage from "../assets/projects/makeitjakes.gif";
-import TwirlImage from "../assets/projects/twirl.png";
-import LayoffEvadersImage from "../assets/projects/layoffevaders.png";
-import LiteNetImage from "../assets/projects/litenet.gif";
-import KaleidoscopeImage from "../assets/projects/kaleidoscope.png";
-import SensaiImage from "../assets/projects/sensai.png";
-import UptoneImage from "../assets/projects/uptone.png";
-import CredibilityImage from "../assets/projects/credibility.png";
-import BYRYouthImage from "../assets/projects/byryouth.png";
-import SACHSAppWebsiteImage from "../assets/projects/sachs-app-website.png";
-import SACHSWebsiteImage from "../assets/projects/sachs-website.png";
-import TicTacToeImage from "../assets/projects/tictactoe.png";
-import EnigmaImage from "../assets/projects/enigma.png";
-import COVID19TrackerImage from "../assets/projects/covid19-tracker.png";
-import EcoRewardsImage from "../assets/projects/ecorewards.png";
 
 import { useState } from "react";
 import { Search } from "lucide-react";
@@ -27,7 +13,7 @@ import { Search } from "lucide-react";
 export default function Home() {
   const projects = [
     {
-      title: "Your Project Name",
+      title: "GeoGuard",
       href: "https://your-project-url.com",
       description: "Brief one-line summary of your project",
       details: [
@@ -39,7 +25,6 @@ export default function Home() {
       imageAlt: "Your Project Alt Text",
       technologies: ["Technology1", "Technology2", "Technology3"], // Update with your tech stack
       github: "https://github.com/yourusername/your-repo",
-      demo: "https://your-demo-url.com",
     },
     {
       title: "Slide it In",
@@ -50,7 +35,6 @@ export default function Home() {
       imageAlt: "Slide it In",
       technologies: ["Go", "Next.js", "Google Cloud Platform"],
       github: "https://github.com/martin226/slideitin",
-      demo: "https://justslideitin.com",
     },
     {
       title: "Make It Jake's",
@@ -61,7 +45,6 @@ export default function Home() {
       imageAlt: "Make It Jakes",
       technologies: ["Ruby on Rails", "Remix.js", "Redis", "Google Cloud Platform"],
       github: "https://github.com/martin226/makeitjakes",
-      demo: "https://jakesresu.me",
     },
   ];
 

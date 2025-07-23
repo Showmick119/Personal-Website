@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Github, SquareArrowOutUpRight } from "lucide-react";
+import { SquareArrowOutUpRight } from "lucide-react";
 
 const shimmer = `
 <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -81,16 +81,6 @@ export default function ProjectCard({
             {github && (
               <a
                 href={github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 rounded-lg text-neutral-600 dark:text-neutral-400 hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors"
-              >
-                <Github className="w-5 h-5" />
-              </a>
-            )}
-            {demo && (
-              <a
-                href={demo}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg text-neutral-600 dark:text-neutral-400 hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors"

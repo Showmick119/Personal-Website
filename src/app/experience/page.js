@@ -151,7 +151,7 @@ export default function Experience() {
       <div className="flex items-center justify-center gap-2 text-stone-600 dark:text-stone-400 mt-8">
         <span>want to work together? </span>
         <span>→</span>
-        <Link href="mailto:your-email@example.com" className="font-medium">
+        <Link href="https://www.linkedin.com/in/showmick-das/" className="font-medium">
           let&#39;s connect
         </Link>
       </div>
