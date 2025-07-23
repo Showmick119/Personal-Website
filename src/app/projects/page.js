@@ -5,12 +5,79 @@ import ProjectList from "../components/ProjectList";
 
 import GeoguardImage from "../assets/projects/Geoguard.png";
 import JurassIQImage from "../assets/projects/JurrasIQ.png";
+import AtmosAIImage from "../assets/projects/AtmosAI.png";
+import CarbonLensImage from "../assets/projects/CarbonLens.png";
+import JavaNNImage from "../assets/projects/JavaNN.png";
+import GTPLImage from "../assets/projects/GTPL.png";
+import SearchSortImage from "../assets/projects/SearchSort.png";
+import FineTuningImage from "../assets/projects/Finetuning.png";
+import AttentionImage from "../assets/projects/Attention.png";
+import DSGTImage from "../assets/projects/DSGT.png";
+import WebDevImage from "../assets/projects/Webdev.png";
+
 
 import { useState } from "react";
 import { Search } from "lucide-react";
 
 export default function Home() {
   const projects = [
+    {
+      title: "Implementing Attention Is All You Need",
+      href: "https://www.gtpropulsivelanders.org/",
+      description: "implementing the transformer architecture from scratch in pytorch",
+      details: [
+        "achieved a 14.8 BLEU score (~35% of original paper's performance) on English-Italian translation whilst using resource efficient training with single A100 GPU versus paper's 8x P100 GPU setup",
+      ],
+      image: AttentionImage,
+      imageAlt: "AttentionImage",
+      technologies: ["Python", "PyTorch", "Hugging Face", "Weights & Biases", "pytest"],
+      github: "https://github.com/Showmick119/GTPL-Website",
+    },
+    {
+      title: "Fine-tuning Code Llama For FastAPI Code Generation",
+      href: "https://www.gtpropulsivelanders.org/",
+      description: "Developed the marketing website for Propulsive Landers, a Registered Student Organization (RSO) at Georgia Tech.",
+      details: [
+        "built a machine learning model that analyzes historical excavation data and geospatial patterns to predict fossil-rich excavation hotspots",
+        "designed an AI system that generates structured excavation plans, estimating costs, workforce, logistics, and excavation duration to assist archaeologists",
+        "fine-tuned MobileNetV2 on 100,000+ synthetic data points and 5,000 real fossil images to classify fossils, determine species, and predict market value",
+        "processed and visualized over 240,000+ excavation-related data points on a world map, enabling archaeologists to explore fossil distribution interactively",
+      ],
+      image: FineTuningImage,
+      imageAlt: "SearchSort",
+      technologies: ["Java"],
+      github: "https://github.com/Showmick119/GTPL-Website",
+    },
+    {
+      title: "Neural Network In Java",
+      href: "https://devpost.com/software/jurrasiq",
+      description: "An AI Assistant for Archaeologists.",
+      details: [
+        "built a machine learning model that analyzes historical excavation data and geospatial patterns to predict fossil-rich excavation hotspots",
+        "designed an AI system that generates structured excavation plans, estimating costs, workforce, logistics, and excavation duration to assist archaeologists",
+        "fine-tuned MobileNetV2 on 100,000+ synthetic data points and 5,000 real fossil images to classify fossils, determine species, and predict market value",
+        "processed and visualized over 240,000+ excavation-related data points on a world map, enabling archaeologists to explore fossil distribution interactively",
+      ],
+      image: JavaNNImage,
+      imageAlt: "JavaNN",
+      technologies: ["Java"],
+      github: "https://github.com/Showmick119/JurrasIQ",
+    },
+    {
+      title: "JurassIQ",
+      href: "https://devpost.com/software/jurrasiq",
+      description: "An AI Assistant for Archaeologists.",
+      details: [
+        "built a machine learning model that analyzes historical excavation data and geospatial patterns to predict fossil-rich excavation hotspots",
+        "designed an AI system that generates structured excavation plans, estimating costs, workforce, logistics, and excavation duration to assist archaeologists",
+        "fine-tuned MobileNetV2 on 100,000+ synthetic data points and 5,000 real fossil images to classify fossils, determine species, and predict market value",
+        "processed and visualized over 240,000+ excavation-related data points on a world map, enabling archaeologists to explore fossil distribution interactively",
+      ],
+      image: JurassIQImage,
+      imageAlt: "JurassIQ",
+      technologies: ["Tensorflow.js", "Scikit-learn", "pandas", "Folium", "Next.js", "Tailwind CSS"],
+      github: "https://github.com/Showmick119/JurrasIQ",
+    },
     {
       title: "Geoguard",
       href: "https://devpost.com/software/geoguard",
@@ -27,7 +94,22 @@ export default function Home() {
       github: "https://github.com/Showmick119/Geoguard-HackGT11",
     },
     {
-      title: "JurassIQ",
+      title: "Searching & Sorting In Java",
+      href: "https://www.gtpropulsivelanders.org/",
+      description: "Developed the marketing website for Propulsive Landers, a Registered Student Organization (RSO) at Georgia Tech.",
+      details: [
+        "built a machine learning model that analyzes historical excavation data and geospatial patterns to predict fossil-rich excavation hotspots",
+        "designed an AI system that generates structured excavation plans, estimating costs, workforce, logistics, and excavation duration to assist archaeologists",
+        "fine-tuned MobileNetV2 on 100,000+ synthetic data points and 5,000 real fossil images to classify fossils, determine species, and predict market value",
+        "processed and visualized over 240,000+ excavation-related data points on a world map, enabling archaeologists to explore fossil distribution interactively",
+      ],
+      image: SearchSortImage,
+      imageAlt: "SearchSort",
+      technologies: ["Java"],
+      github: "https://github.com/Showmick119/GTPL-Website",
+    },
+    {
+      title: "CarbonLens",
       href: "https://devpost.com/software/jurrasiq",
       description: "An AI Assistant for Archaeologists.",
       details: [
@@ -36,9 +118,63 @@ export default function Home() {
         "fine-tuned MobileNetV2 on 100,000+ synthetic data points and 5,000 real fossil images to classify fossils, determine species, and predict market value",
         "processed and visualized over 240,000+ excavation-related data points on a world map, enabling archaeologists to explore fossil distribution interactively",
       ],
-      image: JurassIQImage,
-      imageAlt: "JurassIQ",
-      technologies: ["Tensorflow", "Folium", "pandas", "Next.js", "Tailwind CSS"],
+      image: CarbonLensImage,
+      imageAlt: "CarbonLens",
+      technologies: ["Tensorflow.js", "Scikit-learn", "pandas", "Folium", "Next.js", "Tailwind CSS"],
+      github: "https://github.com/Showmick119/JurrasIQ",
+    },
+    {
+      title: "Propulsive Landers Website",
+      href: "https://www.gtpropulsivelanders.org/",
+      description: "Developed the marketing website for Propulsive Landers, a Registered Student Organization (RSO) at Georgia Tech.",
+      details: [
+        "built a machine learning model that analyzes historical excavation data and geospatial patterns to predict fossil-rich excavation hotspots",
+        "designed an AI system that generates structured excavation plans, estimating costs, workforce, logistics, and excavation duration to assist archaeologists",
+        "fine-tuned MobileNetV2 on 100,000+ synthetic data points and 5,000 real fossil images to classify fossils, determine species, and predict market value",
+        "processed and visualized over 240,000+ excavation-related data points on a world map, enabling archaeologists to explore fossil distribution interactively",
+      ],
+      image: GTPLImage,
+      imageAlt: "GTPLWebsite",
+      technologies: ["JavaScript", "HTML", "CSS"],
+      github: "https://github.com/Showmick119/GTPL-Website",
+    },
+    {
+      title: "RoboInvesting - DSGT",
+      href: "https://github.com/aryan048/RoboInvesting",
+      description: "An auto-investing platform",
+      details: [
+        "built",
+      ],
+      image: DSGTImage,
+      imageAlt: "DSGTImage",
+      technologies: ["Java", "Python", "Spring Boot", "Streamlit"],
+      github: "https://github.com/aryan048/RoboInvesting",
+    },
+    {
+      title: "GT ClassLinker - WebDev @ GT",
+      href: "https://github.com/Showmick119/GT-ClassLinker",
+      description: "A platform to connect all Georgia Tech students!",
+      details: [
+        "built a machine learning model that analyzes historical excavation data and geospatial patterns to predict fossil-rich excavation hotspots",
+      ],
+      image: WebDevImage,
+      imageAlt: "AtmosAI",
+      technologies: ["React.js", "Tailwind CSS", "Figma", "Django"],
+      github: "https://github.com/Showmick119/GT-ClassLinker",
+    },
+    {
+      title: "AtmosAI",
+      href: "https://devpost.com/software/jurrasiq",
+      description: "An AI Assistant for Archaeologists.",
+      details: [
+        "built a machine learning model that analyzes historical excavation data and geospatial patterns to predict fossil-rich excavation hotspots",
+        "designed an AI system that generates structured excavation plans, estimating costs, workforce, logistics, and excavation duration to assist archaeologists",
+        "fine-tuned MobileNetV2 on 100,000+ synthetic data points and 5,000 real fossil images to classify fossils, determine species, and predict market value",
+        "processed and visualized over 240,000+ excavation-related data points on a world map, enabling archaeologists to explore fossil distribution interactively",
+      ],
+      image: AtmosAIImage,
+      imageAlt: "AtmosAI",
+      technologies: ["Tensorflow.js", "Scikit-learn", "pandas", "Folium", "Next.js", "Tailwind CSS"],
       github: "https://github.com/Showmick119/JurrasIQ",
     },
   ];
