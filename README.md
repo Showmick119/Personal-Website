@@ -2,10 +2,10 @@
     <img alt="Logo" src="docs/logo.jpg" width="100" />
 </div>
 <h1 align="center">
-    Personal Website - v2
+    Showmick's Personal Website
 </h1>
 <p align="center">
-    My personal website. Built with <a href="https://nextjs.org" target="_blank">Next.js</a> and <a href="https://tailwindcss.com" target="_blank">Tailwind CSS</a>. Check it out at <a href="https://showmick.vercel.app" target="_blank">showmick.vercel.app</a>.
+    Here's my personal website. Built with <a href="https://nextjs.org" target="_blank">Next.js</a> and <a href="https://tailwindcss.com" target="_blank">Tailwind CSS</a>. Check it out at <a href="https://showmick.vercel.app" target="_blank">showmick.vercel.app</a>.
 </p>
 
 ## Getting Started
