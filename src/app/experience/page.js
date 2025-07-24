@@ -76,16 +76,17 @@ export default function Experience() {
       ]
     },
     {
-      company: "ME SOLshare Ltd.",
+      company: "SOLshare Ltd.",
       companyUrl: "https://apache.org",
       companyLogo: SOLshareLogo,
       position: "Electrical Engineering Intern",
-      duration: "June 2024 - Present",
-      location: "Remote",
+      duration: "Jan 2022 - Mar 2022",
+      location: "Dhaka, Bangladesh",
       description: [
-        "Fine-tuned Code Llama model for FastAPI code generation, achieving ~15.7% improvement over base model",
-        "Became the most downloaded Code Llama adapter on Hugging Face with 10,000+ downloads",
-        "Implemented transformer architecture from 'Attention is All You Need' paper, achieving 14.8 BLEU score"
+        "collaborated with SOLshare's Engineering team to design a portable solar panel delivering 25 watts of charging for up to 3 hours",
+        "prototyped solar solutions using Fusion 360, supporting SOLshare's mission to expand clean energy access",
+        "engineered circuit boards with soldering and wiring techniques to ensure device reliability",
+        "tested and validated products using Arduino IDE and C++ to meet safety and performance standards",
       ]
     }
     // Add more experiences as needed

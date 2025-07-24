@@ -82,7 +82,7 @@ export default function About() {
                 <Link href="https://your-project-1-url.com" className="font-medium">
                   code llama model
                 </Link>{" "}
-                for FastAPI code generation tasks, achieving a ~15.7% improvement over base model, becoming the most downloaded code llama adapter on 🤗 hugging face 
+                for FastAPI code generation tasks, achieving a 13.7% improvement over base model, becoming the most downloaded code llama adapter on 🤗 hugging face 
               </span>
             </li>
             <li className="relative flex items-start gap-4 group/item">
