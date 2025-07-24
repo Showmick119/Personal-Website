@@ -12,7 +12,7 @@ import GTPLImage from "../assets/projects/GTPL.png";
 import SearchSortImage from "../assets/projects/SearchSort.png";
 import FineTuningImage from "../assets/projects/Finetuning.png";
 import AttentionImage from "../assets/projects/Attention.png";
-import DSGTImage from "../assets/projects/DSGT.png";
+import DSGTImage from "../assets/projects/DSGT.jpg";
 import WebDevImage from "../assets/projects/Webdev.png";
 
 
@@ -142,7 +142,7 @@ export default function Home() {
       ],
       image: WebDevImage,
       imageAlt: "WebDevImage",
-      technologies: ["React.js", "Tailwind CSS", "Figma", "Django"],
+      technologies: ["React.js", "Tailwind CSS", "Django", "Figma"],
       github: "https://github.com/Showmick119/GT-ClassLinker",
     },
     {
