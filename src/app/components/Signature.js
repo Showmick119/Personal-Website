@@ -36,7 +36,7 @@ export default function Component() {
               animate={{ pathLength: 1, opacity: 1 }}
               transition={{
                 pathLength: {
-                  duration: 2.8,
+                  duration: 3.0,
                   ease: "easeInOut",
                   delay: delays[i] - 0.25
                 },
@@ -54,8 +54,8 @@ export default function Component() {
             initial={{ pathLength: 0, opacity: 0 }}
             animate={{ pathLength: 1, opacity: 0.2 }}
             transition={{
-              pathLength: { duration: 1, ease: "easeInOut", delay: 3.25 },
-              opacity: { duration: 0.3, delay: 3.20 }
+              pathLength: { duration: 1, ease: "easeInOut", delay: 1.25 },
+              opacity: { duration: 0.3, delay: 1.20 }
             }}
           />
         </g>
