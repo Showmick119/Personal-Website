@@ -57,6 +57,7 @@ export default function Home() {
         "predicts LLM affinity based on an individual's personality traits, achieving ~76% accuracy",
         "supports custom-built activation functions like ReLU, ELU and sigmoid",
         "follows encapsulated class structure, enums, method overloading and other object-oriented principles",
+        "implemented a CI pipeline with GitHub Actions to automate Java builds and test execution with JUnit"
       ],
       image: JavaNNImage,
       imageAlt: "JavaNNImage",
