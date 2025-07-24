@@ -122,6 +122,19 @@ export default function Home() {
       github: "https://github.com/Showmick119/CarbonLens",
     },
     {
+      title: "RoboInvesting - DS @ GT",
+      href: "https://github.com/aryan048/RoboInvesting",
+      description: "an auto-investing platform using AI to personalize financial planning",
+      details: [
+        "contributed by integrating the OpenAI API into the Spring Boot backend and streamlining prompt engineering for personalized investment roadmap generation",
+        "built and connected a Streamlit chatbot interface to enable users to interactively receive AI-driven financial plans based on their submitted financial data",
+      ],
+      image: DSGTImage,
+      imageAlt: "DSGTImage",
+      technologies: ["Java", "Spring Boot", "Python", "OpenAI API","Streamlit"],
+      github: "https://github.com/aryan048/RoboInvesting",
+    },
+    {
       title: "Propulsive Landers Website",
       href: "https://www.gtpropulsivelanders.org/",
       description: "developed a marketing website for a georgia tech rso (registered student organization)",
@@ -144,19 +157,6 @@ export default function Home() {
       imageAlt: "WebDevImage",
       technologies: ["React.js", "Tailwind CSS", "Django", "Figma"],
       github: "https://github.com/Showmick119/GT-ClassLinker",
-    },
-    {
-      title: "RoboInvesting - DS @ GT",
-      href: "https://github.com/aryan048/RoboInvesting",
-      description: "an auto-investing platform using AI to personalize financial planning",
-      details: [
-        "contributed by integrating the OpenAI API into the Spring Boot backend and streamlining prompt engineering for personalized investment roadmap generation",
-        "built and connected a Streamlit chatbot interface to enable users to interactively receive AI-driven financial plans based on their submitted financial data",
-      ],
-      image: DSGTImage,
-      imageAlt: "DSGTImage",
-      technologies: ["Java", "Spring Boot", "Python", "OpenAI API","Streamlit"],
-      github: "https://github.com/aryan048/RoboInvesting",
     },
     {
       title: "AtmosAI",
