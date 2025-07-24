@@ -53,7 +53,7 @@ export default function About() {
             <li className="relative flex items-start gap-4 group/item">
               <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
               <span className="text-stone-600 dark:text-stone-400">
-                <strong>🤝 Activities & Societies:</strong> Big Data Big Impact, Data Science @ GT, WebDev @ GT, Vertically Integrated Projects, Propulsive Landers
+                <strong>🤝 Activities & Societies:</strong> Big Data Big Impact @ GT, Data Science @ GT, WebDev @ GT, Vertically Integrated Projects, Propulsive Landers @ GT
               </span>
             </li>
           </ul>
