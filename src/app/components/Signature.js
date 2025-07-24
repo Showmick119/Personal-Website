@@ -65,7 +65,7 @@ export default function Component() {
         className="text-stone-400 hover:text-stone-600 dark:hover:text-stone-300 transition-colors"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 4.5 }}
+        transition={{ duration: 1, delay: 3.0 }}
       >
         <RotateCcw size={16} />
       </motion.button>
