@@ -14,70 +14,68 @@ export default function Experience() {
       company: "Apache Software Foundation",
       companyUrl: "https://apache.org",
       companyLogo: ApacheLogo,
-      position: "Distributed Systems Researcher",
-      duration: "June 2024 - Present",
-      location: "Remote",
+      position: "Distributed Systems Researcher - Airavata & Cybershuttle",
+      duration: "May 2025 - July 2025",
+      location: "Wilmington, Delaware, United States",
       description: [
-        "Fine-tuned Code Llama model for FastAPI code generation, achieving ~15.7% improvement over base model",
-        "Became the most downloaded Code Llama adapter on Hugging Face with 10,000+ downloads",
-        "Implemented transformer architecture from 'Attention is All You Need' paper, achieving 14.8 BLEU score"
+        "developed MCP server with 12+ FastAPI endpoints integrating Qwen3 LLM with Apache Airavata's $5M NSF-funded research platform, enabling natural language queries across 10,000+ distributed scientific datasets, repositories, models, and notebooks",
+        "built OAuth2 authentication pipeline and LangChain adapters supporting 50+ concurrent researcher connections with 99%+ uptime, transforming manual API workflows into conversational AI interfaces",
       ]
     },
     {
       company: "University of Georgia",
-      companyUrl: "https://uga.edu",
+      companyUrl: "https://publichealth.uga.edu/departments/epidemiology-biostatistics/",
       companyLogo: UGALogo,
-      position: "Machine Learning Intern",
+      position: "Machine Learning Intern - Department of Epidemiology & Biostatistics",
       duration: "May 2025 - July 2025",
       location: "Athens, Georgia, United States",
       description: [
-        "Developed and implemented machine learning models for data analysis and prediction tasks",
-        "Collaborated with research teams to optimize algorithms and improve model performance",
-        "Contributed to research publications and presented findings at academic conferences"
+        "architecting and training deep learning models that integrate CNN and RNN layers for analyzing heart rate variability (HRV) from sensor data",
+        "applying signal processing techniques to evaluate data quality across environmental and individual factors such as movement, skin tone, and sensor placement",
+        "collaborating with PhD researchers from Emory and Georgia Tech to co-author technical white papers and contribute to an abstract for the American Heart Association Epi Lifestyle 2026 Conference"
       ]
     },
     {
       company: "Stanford University",
-      companyUrl: "https://uga.edu",
+      companyUrl: "https://codeinplace.stanford.edu/",
       companyLogo: StanfordLogo,
-      position: "Section Leader",
-      duration: "May 2025 - July 2025",
-      location: "Athens, Georgia, United States",
+      position: "Section Leader - CS106A",
+      duration: "Apr 2025 - May 2025",
+      location: "Stanford, California, United States",
       description: [
-        "Developed and implemented machine learning models for data analysis and prediction tasks",
-        "Collaborated with research teams to optimize algorithms and improve model performance",
-        "Contributed to research publications and presented findings at academic conferences"
+        "conducted weekly coding sessions, taught core Python concepts including control flow, data structures (lists, dictionaries), and object-oriented programming principles",
+        "graded assignments, distributed instructional material, and reinforced key programming concepts through structured exercises",
       ]
     },
     {
       company: "Georgia Tech - Artificial Intelligence Lab",
-      companyUrl: "https://apache.org",
+      companyUrl: "https://ml.gatech.edu/content/mlgt-labs",
       companyLogo: GTLogo,
       position: "Research Assistant",
-      duration: "June 2024 - Present",
-      location: "Remote",
+      duration: "Jan 2025 - May 2025",
+      location: "Atlanta, Georgia, United States",
       description: [
-        "Fine-tuned Code Llama model for FastAPI code generation, achieving ~15.7% improvement over base model",
-        "Became the most downloaded Code Llama adapter on Hugging Face with 10,000+ downloads",
-        "Implemented transformer architecture from 'Attention is All You Need' paper, achieving 14.8 BLEU score"
+        "worked on Large Pre-Trained Time-Series Models (LPTMs) under Dr. Prakash, developing a RESTful Flask API with reverse proxy techniques to enable model loading, dataset uploads, fine-tuning, and inference on a private NVIDIA DGX server",
+        "built an interactive dashboard that allows users to upload datasets, run model forecasts, and explore summarized research findings — including methodologies, outcomes, and comparisons across other foundational time-series models like MOMENT, Chronos, and TimesFM",
+        "fine-tuned the LPTM and benchmarked its performance against other foundational models like Chronos, TimesFM, TimeMoE, MOMENT, and Moirai"
       ]
     },
     {
       company: "Georgia Tech - Exascale CFD Lab",
-      companyUrl: "https://apache.org",
+      companyUrl: "https://vip.gatech.edu/teams/vyr",
       companyLogo: GTLogo,
       position: "Research Assistant",
-      duration: "June 2024 - Present",
-      location: "Remote",
+      duration: "Jan 2025 - Apr 2025",
+      location: "Atlanta, Georgia, United States",
       description: [
-        "Fine-tuned Code Llama model for FastAPI code generation, achieving ~15.7% improvement over base model",
-        "Became the most downloaded Code Llama adapter on Hugging Face with 10,000+ downloads",
-        "Implemented transformer architecture from 'Attention is All You Need' paper, achieving 14.8 BLEU score"
+        "developed matrix addition, scalar multiplication, and matrix-vector operations in C++ and ported them to Kokkos for GPU-accelerated CFD solvers while working under Dr. Jain",
+        "conducted literature reviews and researched ML-based acceleration techniques for CFD, focusing on operator learning, super-resolution, and future flow state prediction using neural networks",
+        "wrote and tested PyTorch scripts to prototype models for real-time inference and to predict coefficients in the 1D Burgers' equation",
       ]
     },
     {
       company: "SOLshare Ltd.",
-      companyUrl: "https://apache.org",
+      companyUrl: "https://solshare.com/",
       companyLogo: SOLshareLogo,
       position: "Electrical Engineering Intern",
       duration: "Jan 2022 - Mar 2022",
