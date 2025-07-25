@@ -79,7 +79,7 @@ export default function About() {
               <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
               <span className="text-stone-600 dark:text-stone-400">
                 🚀 fine-tuned the {" "}
-                <Link href="https://your-project-1-url.com" className="font-medium">
+                <Link href="https://github.com/Showmick119/Fine-Tuning-Open-Source-LLM" className="font-medium">
                   code llama model
                 </Link>{" "}
                 for FastAPI code generation tasks, achieving a 13.7% improvement over base model, becoming the most downloaded code llama adapter on 🤗 hugging face 
@@ -89,7 +89,7 @@ export default function About() {
               <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
               <span className="text-stone-600 dark:text-stone-400">
                 ⚡ implemented the {" "}
-                <Link href="https://your-project-2-url.com" className="font-medium">
+                <Link href="https://github.com/Showmick119/Implementing-Attention-Is-All-You-Need" className="font-medium">
                   attention is all you need
                 </Link>{" "}
                 paper achieving 14.8 BLEU score (~35% of the paper&#39;s performance) while training on a single A100 gpu versus paper&#39;s 8x P100 gpu setup
