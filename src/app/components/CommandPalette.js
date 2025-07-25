@@ -10,28 +10,28 @@ import { useTheme } from "./ThemeProvider";
 
 const projects = [
   {
-    title: "Make It Jake's",
-    href: "https://jakesresu.me",
+    title: "Implementing Attention Is All You Need",
+    href: "https://github.com/Showmick119/Implementing-Attention-Is-All-You-Need",
     shortcut: "1",
   },
   {
-    title: "Twirl",
-    href: "https://dorahacks.io/buidl/21695",
+    title: "Fine-tuning Code Llama",
+    href: "https://github.com/Showmick119/Fine-Tuning-Open-Source-LLM",
     shortcut: "2",
   },
   {
-    title: "Layoff Evaders",
-    href: "https://devpost.com/software/layoff-evaders",
+    title: "Neural Network In Java",
+    href: "https://github.com/Showmick119/Neural-Network-Single-Layer-Perceptron",
     shortcut: "3",
   },
   {
-    title: "EcoRewards",
-    href: "https://devpost.com/software/ecorewards-t0qw26",
+    title: "JurassIQ",
+    href: "https://github.com/Showmick119/JurrasIQ",
     shortcut: "4",
   },
   {
-    title: "LiteNet",
-    href: "https://github.com/martin226/litenet",
+    title: "CarbonLens",
+    href: "https://github.com/Showmick119/CarbonLens",
     shortcut: "5",
   },
 ];
@@ -160,22 +160,22 @@ export default function CommandPalette() {
         runCommand(() => router.push("/writing"));
       } else if (key === "x") {
         e.preventDefault();
-        runCommand(() => window.open("https://x.com/_martinsit", "_blank"));
+        runCommand(() => window.open("https://x.com/Showmick119", "_blank"));
       } else if (key === "l") {
         e.preventDefault();
-        runCommand(() => window.open("https://www.linkedin.com/in/martin-sit/", "_blank"));
+        runCommand(() => window.open("https://www.linkedin.com/in/showmick-das/", "_blank"));
       } else if (key === "g") {
         e.preventDefault();
-        runCommand(() => window.open("https://github.com/martin226", "_blank"));
+        runCommand(() => window.open("https://github.com/Showmick119", "_blank"));
       } else if (key === "r") {
         e.preventDefault();
         runCommand(() => window.open("/resume.pdf", "_blank"));
       } else if (key === "e") {
         e.preventDefault();
-        runCommand(() => window.open("mailto:martinsit288@gmail.com", "_blank"));
+        runCommand(() => window.open("mailto:sdas412@gatech.edu", "_blank"));
       } else if (key === "c") {
         e.preventDefault();
-        runCommand(() => window.open("https://github.com/martin226/v2", "_blank"));
+        runCommand(() => window.open("https://github.com/Showmick119/Personal-Website", "_blank"));
       } else if (key === "t") {
         e.preventDefault();
         runCommand(() => toggleTheme());
@@ -349,7 +349,7 @@ export default function CommandPalette() {
               <Command.Group heading="Links" className="px-2 text-stone-500 dark:text-stone-400">
                 <Command.Item
                   value="twitter"
-                  onSelect={() => runCommand(() => window.open("https://x.com/_martinsit", "_blank"))}
+                  onSelect={() => runCommand(() => window.open("https://x.com/Showmick119", "_blank"))}
                   className="flex items-center gap-2 px-3 py-2 text-sm text-stone-600 dark:text-stone-400 rounded hover:bg-stone-100 dark:hover:bg-stone-800 cursor-pointer data-[selected=true]:bg-stone-100 dark:data-[selected=true]:bg-stone-800"
                 >
                   <Twitter className="h-4 w-4" />
@@ -358,7 +358,7 @@ export default function CommandPalette() {
                 </Command.Item>
                 <Command.Item
                   value="linkedin"
-                  onSelect={() => runCommand(() => window.open("https://www.linkedin.com/in/martin-sit/", "_blank"))}
+                  onSelect={() => runCommand(() => window.open("https://www.linkedin.com/in/showmick-das/", "_blank"))}
                   className="flex items-center gap-2 px-3 py-2 text-sm text-stone-600 dark:text-stone-400 rounded hover:bg-stone-100 dark:hover:bg-stone-800 cursor-pointer data-[selected=true]:bg-stone-100 dark:data-[selected=true]:bg-stone-800"
                 >
                   <Linkedin className="h-4 w-4" />
@@ -367,7 +367,7 @@ export default function CommandPalette() {
                 </Command.Item>
                 <Command.Item
                   value="github"
-                  onSelect={() => runCommand(() => window.open("https://github.com/martin226", "_blank"))}
+                  onSelect={() => runCommand(() => window.open("https://github.com/Showmick119", "_blank"))}
                   className="flex items-center gap-2 px-3 py-2 text-sm text-stone-600 dark:text-stone-400 rounded hover:bg-stone-100 dark:hover:bg-stone-800 cursor-pointer data-[selected=true]:bg-stone-100 dark:data-[selected=true]:bg-stone-800"
                 >
                   <Github className="h-4 w-4" />
