@@ -30,7 +30,7 @@ export default function Experience() {
       duration: "May 2025 - July 2025",
       location: "Athens, Georgia, United States",
       description: [
-        "architecting and training deep learning models that integrate CNN and RNN layers for analyzing heart rate variability (HRV) from sensor data",
+        "architecting and training deep learning models that integrate 1D CNN and BiLSTM layers for analyzing heart rate variability from sensor data",
         "applying signal processing techniques to evaluate data quality across environmental and individual factors such as movement, skin tone, and sensor placement",
         "collaborating with PhD researchers from Emory and Georgia Tech to co-author technical white papers and contribute to an abstract for the American Heart Association Epi Lifestyle 2026 Conference"
       ]
