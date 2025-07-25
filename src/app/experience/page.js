@@ -18,7 +18,7 @@ export default function Experience() {
       duration: "May 2025 - July 2025",
       location: "Wilmington, Delaware, United States",
       description: [
-        "developed MCP server with 12+ FastAPI endpoints integrating Qwen3 LLM with Apache Airavata's $5M NSF-funded research platform, enabling natural language queries across 10,000+ distributed scientific datasets, repositories, models, and notebooks",
+        "developed MCP server with 12+ FastAPI endpoints integrating Qwen3 LLM with Apache Airavata's $5M NSF-funded research platform, enabling natural language queries across 1000+ distributed scientific datasets, repositories, models, and notebooks",
         "built OAuth2 authentication pipeline and LangChain adapters supporting 50+ concurrent researcher connections with 99%+ uptime, transforming manual API workflows into conversational AI interfaces",
       ]
     },
@@ -30,9 +30,9 @@ export default function Experience() {
       duration: "May 2025 - July 2025",
       location: "Athens, Georgia, United States",
       description: [
-        "architecting and training deep learning models that integrate 1D CNN and BiLSTM layers for analyzing heart rate variability from sensor data",
-        "applying signal processing techniques to evaluate data quality across environmental and individual factors such as movement, skin tone, and sensor placement",
-        "collaborating with PhD researchers from Emory and Georgia Tech to co-author technical white papers and contribute to an abstract for the American Heart Association Epi Lifestyle 2026 Conference"
+        "architected a XGBoost peak classification model achieving 98.4% accuracy for automated PPG signal processing, improving 76.8% of Heart Rate Variability predictions and reducing training time by 16% through T4 GPU acceleration",
+        "trained a 1D CNN classifier for signal quality assessment (0.976 F1 score) with Bayesian hyperparameter tuning, integrating it as a preprocessing head to reduce BiLSTM model's RMSE by 65% and eliminate training instabilities",
+        "collaborating with PhD researchers from Emory and Georgia Tech to co-author technical white papers and contribute to an abstract"
       ]
     },
     {
@@ -45,6 +45,7 @@ export default function Experience() {
       description: [
         "conducted weekly coding sessions, taught core Python concepts including control flow, data structures (lists, dictionaries), and object-oriented programming principles",
         "graded assignments, distributed instructional material, and reinforced key programming concepts through structured exercises",
+        "throughout the 2 month program, attendance improved by 16.7% under my teaching"
       ]
     },
     {
