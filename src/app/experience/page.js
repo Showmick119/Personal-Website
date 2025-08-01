@@ -18,8 +18,8 @@ export default function Experience() {
       duration: "May 2025 - July 2025",
       location: "Wilmington, Delaware, United States",
       description: [
-        "developed MCP server with 20+ FastAPI endpoints integrating Qwen3 LLM with Apache Airavata's $5M NSF-funded research platform, enabling natural language queries across 1000+ distributed scientific datasets, repositories, models, and notebooks",
-        "built OAuth2 authentication pipeline and LangChain adapters supporting 50+ concurrent researcher connections with 99%+ uptime, transforming manual API workflows into conversational AI interfaces",
+        "developed MCP server with 20+ FastAPI endpoints integrating LangChain ReAct agent powered by Qwen3 LLM with Apache Airavata's $5M NSF-funded research platform, enabling natural language queries across 1000+ distributed scientific datasets, repositories, models, and notebooks",
+        "built OAuth2 authentication pipeline and LangChain agent supporting 50+ concurrent researcher connections with 100% uptime, transforming manual API workflows into conversational AI interfaces",
       ]
     },
     {
@@ -31,7 +31,7 @@ export default function Experience() {
       location: "Athens, Georgia, United States",
       description: [
         "trained a XGBoost peak classification model achieving 98.4% accuracy for automated PPG signal processing, improving 76.8% of Heart Rate Variability predictions and reducing training time by 16% through T4 GPU acceleration",
-        "architected a 1D CNN classifier with Residual Connections for signal quality assessment (0.974 F1 score), hyperparameter-tuned via Bayesian Optimization, and integrated as a preprocessing head to reduce the BiLSTM model's RMSE by 65% and eliminate training instabilities",
+        "architected a 1D CNN classifier with Residual Connections for signal quality assessment (0.9917 F1 score), hyperparameter-tuned via Bayesian Optimization, and integrated as a preprocessing head to reduce the BiLSTM model's RMSE by 65% and eliminate training instabilities",
         "collaborating with PhD researchers from Emory and Georgia Tech to co-author technical white papers and contribute to an abstract"
       ]
     },
