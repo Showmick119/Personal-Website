@@ -47,13 +47,13 @@ export default function About() {
             <li className="relative flex items-start gap-4 group/item">
               <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
               <span className="text-stone-600 dark:text-stone-400">
-                <strong>📚 Relevant Coursework:</strong> Data Structures & Algorithms, Machine Learning, Object-Oriented Programming, Computing In Python, Linear Algebra, Calculus I, Calculus II
+                <strong>📚 Relevant Coursework:</strong> Data Structures & Algorithms, Discrete Mathematics, Objects & Designs, Object-Oriented Programming, Computing In Python, Linear Algebra, Integral Calculus
               </span>
             </li>
             <li className="relative flex items-start gap-4 group/item">
               <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
               <span className="text-stone-600 dark:text-stone-400">
-                <strong>🤝 Activities & Societies:</strong> Big Data Big Impact @ GT, Data Science @ GT, WebDev @ GT, Vertically Integrated Projects, Propulsive Landers @ GT
+                <strong>🤝 Activities & Societies:</strong> Campus Ambassador for Perplexity AI, Executive Board of Finance & Sponsorship Outreach at AIGT, Executive Board of Technology at DSGT, Website Development & Marketing at GTPL, Project Member at BDBI, Project Member at GTWebDev, Vertically Integrated Projects
               </span>
             </li>
           </ul>
@@ -115,13 +115,13 @@ export default function About() {
         <Briefcase className="size-5 inline align-top ml-1 transition-transform group-hover:rotate-3" />
       </NextLink>
 
-      <div className="flex items-center justify-center gap-2 text-stone-600 dark:text-stone-400 mt-4">
+      {/* <div className="flex items-center justify-center gap-2 text-stone-600 dark:text-stone-400 mt-4">
         <span>or, </span>
         <span>→</span>
         <Link href="/resume.pdf" className="font-medium">
           view my resume
         </Link>
-      </div>
+      </div> */}
 
       <div className="flex flex-col sm:flex-row items-center justify-between mt-4">
         <div className="relative flex-1 flex items-center justify-center sm:justify-center mr-0 sm:mr-8 mb-4 sm:mb-0">
