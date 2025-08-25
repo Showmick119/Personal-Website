@@ -115,13 +115,13 @@ export default function About() {
         <Briefcase className="size-5 inline align-top ml-1 transition-transform group-hover:rotate-3" />
       </NextLink>
 
-      <div className="flex items-center justify-center gap-2 text-stone-600 dark:text-stone-400 mt-4">
-        <span>or, </span>
-        <span>→</span>
-        <Link href="/resume.pdf" className="font-medium">
-          view my resume
-        </Link>
-      </div>
+      // <div className="flex items-center justify-center gap-2 text-stone-600 dark:text-stone-400 mt-4">
+      //   <span>or, </span>
+      //   <span>→</span>
+      //   <Link href="/resume.pdf" className="font-medium">
+      //     view my resume
+      //   </Link>
+      // </div>
 
       <div className="flex flex-col sm:flex-row items-center justify-between mt-4">
         <div className="relative flex-1 flex items-center justify-center sm:justify-center mr-0 sm:mr-8 mb-4 sm:mb-0">
