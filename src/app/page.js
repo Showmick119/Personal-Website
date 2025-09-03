@@ -65,14 +65,10 @@ export default function About() {
           <li className="relative flex items-start gap-4 group/item">
               <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
               <span className="text-stone-600 dark:text-stone-400">
-                <strong>Distributed Systems Researcher</strong> at{" "}
+                <strong>👨‍💻 Software Engineer</strong> at{" "}
                 <span className="inline-flex items-baseline gap-1">
-                  <Image src={ApacheLogo} alt="Apache Logo" width={20} height={18} className="object-contain relative top-[7px]" />
-                  <Link href="https://apache.org" className="font-medium">
-                    Apache
-                  </Link>
                 </span>
-                <strong> Software Foundation</strong>
+                <strong>Artificial Intelligence Lab</strong>
               </span>
             </li>
             <li className="relative flex items-start gap-4 group/item">
