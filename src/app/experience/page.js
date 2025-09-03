@@ -11,23 +11,24 @@ import SOLshareLogo from "@/app/components/icon/solshare.png";
 export default function Experience() {
   const experiences = [
     {
-      company: "Apache Software Foundation",
-      companyUrl: "https://apache.org",
-      companyLogo: ApacheLogo,
-      position: "Distributed Systems Researcher - Airavata & Cybershuttle",
-      duration: "May 2025 - July 2025",
-      location: "Wilmington, Delaware, United States",
+      company: "Georgia Tech - Artificial Intelligence Lab",
+      companyUrl: "https://ml.gatech.edu/content/mlgt-labs",
+      companyLogo: GTLogo,
+      position: "Software Engineer",
+      duration: "Dec 2024 - Present",
+      location: "Atlanta, Georgia, United States",
       description: [
-        "developed MCP server with 20+ FastAPI endpoints integrating LangChain ReAct agent powered by Qwen3 LLM with Apache Airavata's $5M NSF-funded research platform, enabling natural language queries across 1000+ distributed scientific datasets, repositories, models, and notebooks",
-        "built OAuth2 authentication pipeline and LangChain agent supporting 50+ concurrent researcher connections with 100% uptime, transforming manual API workflows into conversational AI interfaces",
+        "worked on Large Pre-Trained Time-Series Models (LPTMs) under Dr. Prakash, developing a RESTful Flask API with reverse proxy techniques to enable model loading, dataset uploads, fine-tuning, and inference on a private NVIDIA DGX server",
+        "built an interactive dashboard that allows users to upload datasets, run model forecasts, and explore summarized research findings — including methodologies, outcomes, and comparisons across other foundational time-series models like MOMENT, Chronos, and TimesFM",
+        "fine-tuned the LPTM and benchmarked its performance against other foundational models like Chronos, TimesFM, TimeMoE, MOMENT, and Moirai"
       ]
     },
     {
       company: "University of Georgia",
       companyUrl: "https://publichealth.uga.edu/departments/epidemiology-biostatistics/",
       companyLogo: UGALogo,
-      position: "Machine Learning Intern - Department of Epidemiology & Biostatistics",
-      duration: "May 2025 - July 2025",
+      position: "Software Engineering Intern - Dept. of Epidemiology & Biostatistics",
+      duration: "May 2025 - Aug 2025",
       location: "Athens, Georgia, United States",
       description: [
         "trained a XGBoost peak classification model achieving 98.4% accuracy for automated PPG signal processing, improving 76.8% of Heart Rate Variability predictions and reducing training time by 16% through T4 GPU acceleration",
@@ -39,26 +40,13 @@ export default function Experience() {
       company: "Stanford University",
       companyUrl: "https://codeinplace.stanford.edu/",
       companyLogo: StanfordLogo,
-      position: "Section Leader - CS106A",
+      position: "Teaching Assistant - CS106A",
       duration: "Apr 2025 - May 2025",
       location: "Stanford, California, United States",
       description: [
         "conducted weekly coding sessions, taught core Python concepts including control flow, data structures (lists, dictionaries), and object-oriented programming principles",
         "graded assignments, distributed instructional material, and reinforced key programming concepts through structured exercises",
         "throughout the 2 month program, attendance improved by 16.7% under my teaching"
-      ]
-    },
-    {
-      company: "Georgia Tech - Artificial Intelligence Lab",
-      companyUrl: "https://ml.gatech.edu/content/mlgt-labs",
-      companyLogo: GTLogo,
-      position: "Research Assistant",
-      duration: "Jan 2025 - May 2025",
-      location: "Atlanta, Georgia, United States",
-      description: [
-        "worked on Large Pre-Trained Time-Series Models (LPTMs) under Dr. Prakash, developing a RESTful Flask API with reverse proxy techniques to enable model loading, dataset uploads, fine-tuning, and inference on a private NVIDIA DGX server",
-        "built an interactive dashboard that allows users to upload datasets, run model forecasts, and explore summarized research findings — including methodologies, outcomes, and comparisons across other foundational time-series models like MOMENT, Chronos, and TimesFM",
-        "fine-tuned the LPTM and benchmarked its performance against other foundational models like Chronos, TimesFM, TimeMoE, MOMENT, and Moirai"
       ]
     },
     {
@@ -72,6 +60,18 @@ export default function Experience() {
         "developed matrix addition, scalar multiplication, and matrix-vector operations in C++ and ported them to Kokkos for GPU-accelerated CFD solvers while working under Dr. Jain",
         "conducted literature reviews and researched ML-based acceleration techniques for CFD, focusing on operator learning, super-resolution, and future flow state prediction using neural networks",
         "wrote and tested PyTorch scripts to prototype models for real-time inference and to predict coefficients in the 1D Burgers' equation",
+      ]
+    },
+    {
+      company: "Apache Software Foundation",
+      companyUrl: "https://apache.org",
+      companyLogo: ApacheLogo,
+      position: "Software Engineering Intern - Cybershuttle & Apache Airavata",
+      duration: "May 2024 - Aug 2024",
+      location: "Wilmington, Delaware, United States",
+      description: [
+        "developed MCP server with 20+ FastAPI endpoints integrating LangChain ReAct agent powered by Qwen3 LLM with Apache Airavata's $5M NSF-funded research platform, enabling natural language queries across 1000+ distributed scientific datasets, repositories, models, and notebooks",
+        "built OAuth2 authentication pipeline and LangChain agent supporting 50+ concurrent researcher connections with 100% uptime, transforming manual API workflows into conversational AI interfaces",
       ]
     },
     {
