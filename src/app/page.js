@@ -35,25 +35,25 @@ export default function About() {
             <li className="relative flex items-start gap-4 group/item">
               <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
               <span className="text-stone-600 dark:text-stone-400">
-                <strong>📅 Expected Graduation:</strong> May 2027
+                <strong>📅 Expected Graduation:</strong> May 2028
               </span>
             </li>
             <li className="relative flex items-start gap-4 group/item">
               <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
               <span className="text-stone-600 dark:text-stone-400">
-                <strong>🔍 Concentration:</strong> Information Internetworks & Intelligence
+                <strong>🔍 Concentration:</strong> Systems Architecture & Intelligence
               </span>
             </li>
             <li className="relative flex items-start gap-4 group/item">
               <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
               <span className="text-stone-600 dark:text-stone-400">
-                <strong>📚 Relevant Coursework:</strong> Data Structures & Algorithms, Discrete Mathematics, Objects & Designs, Object-Oriented Programming, Computing In Python, Linear Algebra, Integral Calculus
+                <strong>📚 Relevant Coursework:</strong> Design & Analysis of Algorithms, Computer Organization & Programming, Data Structures & Algorithms, Discrete Mathematics, Objects & Designs, Object-Oriented Programming, Computing In Python
               </span>
             </li>
             <li className="relative flex items-start gap-4 group/item">
               <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
               <span className="text-stone-600 dark:text-stone-400">
-                <strong>🤝 Activities & Societies:</strong> Campus Ambassador for Perplexity AI, Executive Board of Finance & Sponsorship Outreach at AIGT, Executive Board of Technology at DSGT, Website Development & Marketing at GTPL, Project Member at BDBI, Project Member at GTWebDev, Vertically Integrated Projects
+                <strong>🤝 Activities & Societies:</strong> Campus Ambassador for Perplexity AI, Associate Director of Sponsorships at AIGT, Website Development at GTPL, Project Member at BDBI, Project Member at DSGT
               </span>
             </li>
           </ul>
@@ -65,10 +65,10 @@ export default function About() {
           <li className="relative flex items-start gap-4 group/item">
               <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
               <span className="text-stone-600 dark:text-stone-400">
-                <strong>👨‍💻 Software Engineer</strong> at{" "}
+                <strong>👨‍💻 Research Intern</strong> at{" "}
                 <span className="inline-flex items-baseline gap-1">
                 </span>
-                <strong>Artificial Intelligence Lab</strong>
+                <strong>Systems for Artificial Intelligence Lab</strong>
               </span>
             </li>
             <li className="relative flex items-start gap-4 group/item">
@@ -78,7 +78,7 @@ export default function About() {
                 <Link href="https://github.com/Showmick119/Fine-Tuning-Open-Source-LLM" className="font-medium">
                   code llama model
                 </Link>{" "}
-                for FastAPI code generation tasks, achieving a 13.7% improvement over base model, becoming the most downloaded code llama adapter on 🤗 hugging face 
+                for FastAPI code generation tasks, achieving a 23.7% improvement over base model, becoming the most downloaded code llama adapter on 🤗 hugging face 
               </span>
             </li>
             <li className="relative flex items-start gap-4 group/item">
