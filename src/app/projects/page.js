@@ -22,7 +22,7 @@ import { Search } from "lucide-react";
 export default function Home() {
   const projects = [
     {
-      title: "Implementing Attention Is All You Need",
+      title: "Implementing Generative Pre-Trained Transformer (GPT)",
       href: "https://colab.research.google.com/github/Showmick119/Implementing-Attention-Is-All-You-Need/blob/main/notebooks/transformer_train.ipynb",
       description: "implementing the transformer architecture from scratch in pytorch",
       details: [
@@ -36,7 +36,7 @@ export default function Home() {
       github: "https://github.com/Showmick119/Implementing-Attention-Is-All-You-Need",
     },
     {
-      title: "Fine-tuning Code Llama For FastAPI Code Generation",
+      title: "Optimized Code Llama 7B Training Infrastructure",
       href: "https://huggingface.co/Showmick119/codellama-7b-fastapi-finetuned-20250713",
       description: "most downloaded code llama adapter on the hugging face hub",
       details: [

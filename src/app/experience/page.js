@@ -66,7 +66,7 @@ export default function Experience() {
       ]
     },
     {
-      company: "Georgia Tech - Exascale CFD Lab",
+      company: "Exascale Computing Lab",
       companyUrl: "https://vip.gatech.edu/teams/vyr",
       companyLogo: GTLogo,
       position: "Machine Learning Research Intern",

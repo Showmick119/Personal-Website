@@ -53,7 +53,7 @@ export default function About() {
             <li className="relative flex items-start gap-4 group/item">
               <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
               <span className="text-stone-600 dark:text-stone-400">
-                <strong>🤝 Activities & Societies:</strong> Campus Ambassador for Perplexity AI, Executive Board of Finance & Sponsorships at AIGT, Website Development at GTPL, Project Member at BDBI, Project Member at DSGT
+                <strong>🤝 Activities & Societies:</strong> Campus Ambassador for Perplexity AI, Associate Director of Sponsorships at AIGT, Website Development at GTPL, Project Member at BDBI, Project Member at DSGT
               </span>
             </li>
           </ul>
