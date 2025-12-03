@@ -11,29 +11,45 @@ import SOLshareLogo from "@/app/components/icon/solshare.png";
 export default function Experience() {
   const experiences = [
     {
-      company: "Georgia Tech - Artificial Intelligence Lab",
+      company: "Systems for Artificial Intelligence Lab",
       companyUrl: "https://ml.gatech.edu/content/mlgt-labs",
       companyLogo: GTLogo,
-      position: "Software Engineer",
-      duration: "Dec 2024 - Present",
+      position: "Machine Learning Research Intern",
+      duration: "Dec 2025 - Present",
       location: "Atlanta, Georgia, United States",
       description: [
-        "worked on Large Pre-Trained Time-Series Models (LPTMs) under Dr. Prakash, developing a RESTful Flask API with reverse proxy techniques to enable model loading, dataset uploads, fine-tuning, and inference on a private NVIDIA DGX server",
-        "built an interactive dashboard that allows users to upload datasets, run model forecasts, and explore summarized research findings — including methodologies, outcomes, and comparisons across other foundational time-series models like MOMENT, Chronos, and TimesFM",
-        "fine-tuned the LPTM and benchmarked its performance against other foundational models like Chronos, TimesFM, TimeMoE, MOMENT, and Moirai"
+        "architecting KV cache stitching framework enabling 57% higher throughput and 44% more requests within TTFT/TPOT SLOs",
+        "engineering low-rank transformation layers with SVD initialization, reducing training loss by 35% across Llama & Qwen models",
+        "building distributed training pipeline using DeepSpeed & Accelerate achieving 0.7+ Rouge-L scores on NarrativeQA dataset",
+        "benchmarking 10K+ model configurations on H100 GPUs, measuring TTFT latency, TPOT improvements, and goodput gains"
       ]
     },
     {
-      company: "University of Georgia",
+      company: "Artificial Intelligence Lab",
+      companyUrl: "https://ml.gatech.edu/content/mlgt-labs",
+      companyLogo: GTLogo,
+      position: "Software Engineer Intern",
+      duration: "Jan 2025 - Dec 2025",
+      location: "Atlanta, Georgia, United States",
+      description: [
+        "open-sourced NeurIPS & IEEE published research funded $15M by Meta & NSF, advancing Multivariate Time Series Forecasting",
+        "built inference dashboard with React.js & Tailwind CSS for Large Pre-Trained Time-Series Models (LPTMs) achieving 60ms latency",
+        "built benchmarking framework evaluating LPTMs vs Chronos & TimesFM using 16M+ datapoints from PostgreSQL & CSV pipelines",
+        "designed model serving infrastructure with 30+ REST API endpoints for dataset uploads, fine-tuning workflows, and real-time inference"
+      ]
+    },
+    {
+      company: "Department of Statistics, University of Georgia",
       companyUrl: "https://publichealth.uga.edu/departments/epidemiology-biostatistics/",
       companyLogo: UGALogo,
-      position: "Software Engineering Intern - Dept. of Epidemiology & Biostatistics",
+      position: "Machine Learning Research Intern",
       duration: "May 2025 - Aug 2025",
       location: "Athens, Georgia, United States",
       description: [
-        "trained a XGBoost peak classification model achieving 98.4% accuracy for automated PPG signal processing, improving 76.8% of Heart Rate Variability predictions and reducing training time by 16% through T4 GPU acceleration",
-        "architected a 1D CNN classifier with Residual Connections for signal quality assessment (0.9917 F1 score), hyperparameter-tuned via Bayesian Optimization, and integrated as a preprocessing head to reduce the BiLSTM model's RMSE by 65% and eliminate training instabilities",
-        "collaborating with PhD researchers from Emory and Georgia Tech to co-author technical white papers and contribute to an abstract"
+        "Co-authored white papers on deep learning architectures for biomedical signal processing with novel CNN-BiLSTM hybrid model",
+        "architected 1D CNN classifier for signal quality assessment achieving 0.9917 F1 score via Pruning-based Bayesian Optimization",
+        "integrated CNN classifier as preprocessing head reducing BiLSTM model’s RMSE by 65% and eliminating training instabilities",
+        "engineered ETL pipeline loading ECG/PPG signals into PostgreSQL, applying FFTs & low-pass/high-pass filtering for noise removal"
       ]
     },
     {
@@ -53,33 +69,35 @@ export default function Experience() {
       company: "Georgia Tech - Exascale CFD Lab",
       companyUrl: "https://vip.gatech.edu/teams/vyr",
       companyLogo: GTLogo,
-      position: "Research Assistant",
+      position: "Machine Learning Research Intern",
       duration: "Jan 2025 - Apr 2025",
       location: "Atlanta, Georgia, United States",
       description: [
         "developed matrix addition, scalar multiplication, and matrix-vector operations in C++ and ported them to Kokkos for GPU-accelerated CFD solvers while working under Dr. Jain",
         "conducted literature reviews and researched ML-based acceleration techniques for CFD, focusing on operator learning, super-resolution, and future flow state prediction using neural networks",
-        "wrote and tested PyTorch scripts to prototype models for real-time inference and to predict coefficients in the 1D Burgers' equation",
+        "wrote and tested PyTorch scripts to prototype models for real-time inference and to predict coefficients in the 1D Burgers' equation"
       ]
     },
     {
-      company: "Apache Software Foundation",
+      company: "The Apache Software Foundation",
       companyUrl: "https://apache.org",
       companyLogo: ApacheLogo,
-      position: "Software Engineering Intern - Cybershuttle & Apache Airavata",
+      position: "Software Engineer Intern",
       duration: "May 2024 - Aug 2024",
       location: "Wilmington, Delaware, United States",
       description: [
-        "developed MCP server with 20+ FastAPI endpoints integrating LangChain ReAct agent powered by Qwen3 LLM with Apache Airavata's $5M NSF-funded research platform, enabling natural language queries across 1000+ distributed scientific datasets, repositories, models, and notebooks",
-        "built OAuth2 authentication pipeline and LangChain agent supporting 50+ concurrent researcher connections with 100% uptime, transforming manual API workflows into conversational AI interfaces",
+        "built asynchronous FastAPI-based MCP server serving 50K+ concurrent requests with 100% uptime and OAuth2 authentication",
+        "engineered 25+ REST API endpoints transforming complex Apache Airavata API workflows into intuitive conversational interfaces",
+        "integrated LangChain AI Agent powered by open-source Qwen3 LLM into Apache’s $5M NSF-funded research platform, Cybershuttle",
+        "enabled natural language queries across 100K+ datasets, models, and notebooks at GPU-accelerated research clusters"
       ]
     },
     {
       company: "SOLshare Ltd.",
       companyUrl: "https://solshare.com/",
       companyLogo: SOLshareLogo,
-      position: "Electrical Engineering Intern",
-      duration: "Jan 2022 - Mar 2022",
+      position: "Software Engineer Intern",
+      duration: "Jan 2022 - Apr 2022",
       location: "Dhaka, Bangladesh",
       description: [
         "collaborated with SOLshare's Engineering team to design a portable solar panel delivering 25 watts of charging for up to 3 hours",

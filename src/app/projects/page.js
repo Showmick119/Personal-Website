@@ -41,7 +41,7 @@ export default function Home() {
       description: "most downloaded code llama adapter on the hugging face hub",
       details: [
         "developed an automated GitHub mining pipeline that processed over 120 FastAPI repositories, extracting production-grade code patterns—including authentication, database integration (SQLAlchemy, MongoDB), input validation, and error handling—via advanced AST parsing and pattern recognition, resulting in a comprehensive, curated dataset for model fine-tuning",
-        "boosted FastAPI code generation accuracy and completeness by 13.7%, leveraging custom domain-specific evaluation metrics and a GPT-based “LLM as a Judge”",
+        "boosted FastAPI code generation accuracy and completeness by 23.7%, leveraging custom domain-specific evaluation metrics and a GPT-based “LLM as a Judge”",
         "reduced GPU memory usage by approximately 75% and enabled single-GPU (T4, 15GB VRAM) training by adopting 4-bit quantization and LoRA adapters, cutting training time by over 50% compared to full-parameter fine-tuning",
       ],
       image: FineTuningImage,
