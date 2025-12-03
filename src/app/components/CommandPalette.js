@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Command } from "cmdk";
 import { useRouter, usePathname } from "next/navigation";
 import * as Dialog from "@radix-ui/react-dialog";
-import { Search, FileText, Home, FolderGit2, PenLine, Github, Linkedin, ExternalLink, Twitter, Mail, CodeXml, Lightbulb, Sun, Moon } from "lucide-react";
+import { Search, Home, FolderGit2, PenLine, Github, Linkedin, ExternalLink, Twitter, Mail, CodeXml, Lightbulb, Sun, Moon } from "lucide-react";
 import useMobileDevice from "../hooks/useMobileDevice";
 import { useTheme } from "./ThemeProvider";
 
@@ -159,9 +159,6 @@ export default function CommandPalette() {
       } else if (key === "g") {
         e.preventDefault();
         runCommand(() => window.open("https://github.com/Showmick119", "_blank"));
-      } else if (key === "r") {
-        e.preventDefault();
-        runCommand(() => window.open("/resume.pdf", "_blank"));
       } else if (key === "m") {
         e.preventDefault();
         runCommand(() => window.open("mailto:sdas412@gatech.edu", "_blank"));
@@ -339,15 +336,6 @@ export default function CommandPalette() {
                   <Github className="h-4 w-4" />
                   <span className="flex-1">GitHub Profile</span>
                   <Shortcut>G</Shortcut>
-                </Command.Item>
-                <Command.Item
-                  value="resume"
-                  onSelect={() => runCommand(() => window.open("/resume.pdf", "_blank"))}
-                  className="flex items-center gap-2 px-3 py-2 text-sm text-stone-600 dark:text-stone-400 rounded hover:bg-stone-100 dark:hover:bg-stone-800 cursor-pointer data-[selected=true]:bg-stone-100 dark:data-[selected=true]:bg-stone-800"
-                >
-                  <FileText className="h-4 w-4" />
-                  <span className="flex-1">Resume</span>
-                  <Shortcut>R</Shortcut>
                 </Command.Item>
                 <Command.Item
                   value="email"
