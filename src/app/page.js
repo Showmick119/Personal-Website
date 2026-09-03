@@ -41,7 +41,7 @@ export default function About() {
             <li className="relative flex items-start gap-4 group/item">
               <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
               <span className="text-stone-600 dark:text-stone-400">
-                <strong>🔍 Concentration:</strong> Systems Architecture & Intelligence
+                <strong>🔍 Concentration:</strong> Information Internetworks & Intelligence
               </span>
             </li>
             <li className="relative flex items-start gap-4 group/item">
