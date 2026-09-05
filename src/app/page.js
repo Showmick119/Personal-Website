@@ -29,12 +29,6 @@ export default function About() {
             <li className="relative flex items-start gap-4 group/item">
               <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
               <span className="text-stone-600 dark:text-stone-400">
-                <strong>🎓 GPA:</strong> 4.00/4.00
-              </span>
-            </li>
-            <li className="relative flex items-start gap-4 group/item">
-              <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
-              <span className="text-stone-600 dark:text-stone-400">
                 <strong>📅 Expected Graduation:</strong> May 2028
               </span>
             </li>
@@ -47,13 +41,13 @@ export default function About() {
             <li className="relative flex items-start gap-4 group/item">
               <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
               <span className="text-stone-600 dark:text-stone-400">
-                <strong>📚 Relevant Coursework:</strong> Design & Analysis of Algorithms, Computer Organization & Programming, Data Structures & Algorithms, Discrete Mathematics, Objects & Designs, Object-Oriented Programming, Computing In Python
+                <strong>📚 Relevant Coursework:</strong> Operating Systems & Computer Networking, Computer Architecture, Machine Learning, Artificial Intelligence, Database Systems, Data Structures & Algorithms, Discrete Mathematics
               </span>
             </li>
             <li className="relative flex items-start gap-4 group/item">
               <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
               <span className="text-stone-600 dark:text-stone-400">
-                <strong>🤝 Activities & Societies:</strong> Campus Ambassador for Perplexity AI, Associate Director of Sponsorships at AIGT, Website Development at GTPL, Project Member at BDBI, Project Member at DSGT
+                <strong>🤝 Activities & Societies:</strong> Artificial Intelligence @ GT | Perplexity AI Campus Ambassador | Data Science @ GT | Big Data Big Impact @ GT | WebDev @ GT | Propulsive Landers @ GT
               </span>
             </li>
           </ul>
@@ -65,10 +59,10 @@ export default function About() {
           <li className="relative flex items-start gap-4 group/item">
               <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
               <span className="text-stone-600 dark:text-stone-400">
-                <strong>👨‍💻 Research Intern</strong> at{" "}
+                <strong>👨‍💻 Software Engineer Intern</strong> at{" "}
                 <span className="inline-flex items-baseline gap-1">
                 </span>
-                <strong>Systems for Artificial Intelligence Lab</strong>
+                <strong>Google</strong>
               </span>
             </li>
             <li className="relative flex items-start gap-4 group/item">
