@@ -108,6 +108,7 @@ export default function Home() {
       technologies: ["Java", "GitHub Actions", "CI Pipeline", "JUnit"],
       github: "https://github.com/Showmick119/Searching-and-Sorting-Algorithms",
     },
+    /*
     {
       title: "CarbonLens",
       href: "https://github.com/Showmick119/CarbonLens",
@@ -173,6 +174,7 @@ export default function Home() {
       technologies: ["Python", "Gemini API", "OpenWeatherAPI", "pandas", "matplotlib", "Streamlit", "plotly"],
       github: "https://github.com/Showmick119/AtmosAI",
     },
+    */
   ];
 
   const [searchTerm, setSearchTerm] = useState("");
