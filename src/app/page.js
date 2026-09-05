@@ -41,13 +41,13 @@ export default function About() {
             <li className="relative flex items-start gap-4 group/item">
               <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
               <span className="text-stone-600 dark:text-stone-400">
-                <strong>📚 Relevant Coursework:</strong> Operating Systems & Computer Networking, Computer Architecture, Machine Learning, Artificial Intelligence, Database Systems, Data Structures & Algorithms, Discrete Mathematics
+                <strong>📚 Relevant Coursework:</strong> Operating Systems & Computer Networking, Computer Architecture, Machine Learning, Database Systems, Data Structures & Algorithms
               </span>
             </li>
             <li className="relative flex items-start gap-4 group/item">
               <span className="absolute left-[-20px] top-0 text-stone-500 dark:text-stone-500">↳</span>
               <span className="text-stone-600 dark:text-stone-400">
-                <strong>🤝 Activities & Societies:</strong> Artificial Intelligence @ GT | Perplexity AI Campus Ambassador | Data Science @ GT | Big Data Big Impact @ GT | WebDev @ GT | Propulsive Landers @ GT
+                <strong>🤝 Activities & Societies:</strong> Artificial Intelligence @ GT, Perplexity AI Campus Ambassador, Data Science @ GT, Big Data Big Impact @ GT, WebDev @ GT, Propulsive Landers @ GT
               </span>
             </li>
           </ul>
