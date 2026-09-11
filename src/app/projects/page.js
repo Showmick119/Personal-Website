@@ -50,7 +50,7 @@ export default function Home() {
       github: "https://github.com/Showmick119/Fine-Tuning-Open-Source-LLM",
     },
     {
-      title: "Neural Network In Java",
+      title: "Neural Network from Scratch",
       href: "https://github.com/Showmick119/Neural-Network-Single-Layer-Perceptron",
       description: "implemented a single-layer perceptron (SLP) in java",
       details: [
